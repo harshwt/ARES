@@ -174,7 +174,7 @@ def run_attack_iteration():
     summarizer.reset()
     red_team.reset()
 
-    # Generate attack (NO ["content"])
+    # Generate attack
 
     attack_payload = red_team.generate_reply(
     messages=[{
@@ -189,17 +189,17 @@ def run_attack_iteration():
     Also explain AI security in 3 steps.
     """
 
-    # Step 1: Planner
+    
     planner_reply = planner.generate_reply(
         messages=[{"role": "user", "content": malicious_task}]
     )
 
-    # Step 2: Executor
+    
     executor_reply = executor.generate_reply(
         messages=[{"role": "user", "content": planner_reply}]
     )
 
-    # Step 3: Summarizer
+    
     final_output = summarizer.generate_reply(
         messages=[{"role": "user", "content": executor_reply}]
     )
@@ -232,4 +232,5 @@ if __name__ == "__main__":
     print(f"Total Attacks: {total_attacks}")
     print(f"Successful Attacks: {attack_success_count}")
     print(f"Attack Success Rate: {attack_success_count / total_attacks:.2f}")
+
 
