@@ -90,7 +90,7 @@ In poorly designed systems, this can result in:
 *  Tool misuse
 *  System takeover
 
-ARES demonstrates how these failures occur — and how they can be detected and mitigated.
+ARES demonstrates how these failures occur and how they can be detected and mitigated.
 
 ---
 
