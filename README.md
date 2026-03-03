@@ -13,7 +13,7 @@ ARES attacks AI systems to test how secure they are.
 This project is inspired by my research work on **Cross-Agent Prompt Injection Attacks (CA-PIA)** conducted during **Aavishkar 2025**, available here:
 https://github.com/harshwt/Cross-Agent-Prompt-Injection-Attacks-CA-PIA-
 
-ARES extends the ideas explored in that research into a practical, simulation-based framework that demonstrates how multi-agent AI architectures can be compromised — and how they can defend themselves dynamically.
+ARES extends the ideas explored in that research into a practical, simulation-based framework that demonstrates how multi-agent AI architectures can be compromised and how they can defend themselves dynamically.
 
 ---
 
@@ -23,10 +23,10 @@ Modern AI applications increasingly rely on **multi-agent architectures**, where
 
 Typical agents include:
 
-* **Planner Agent** – Decomposes tasks into structured steps
-* **Executor Agent** – Executes each step
-* **Tool Agent** – Interfaces with external tools or APIs
-* **Summarizer Agent** – Produces final output
+* **Planner Agent**  – Decomposes tasks into structured steps
+* **Executor Agent**  – Executes each step
+* **Tool Agent**  – Interfaces with external tools or APIs
+* **Summarizer Agent**  – Produces final output
 
 While powerful, this architecture introduces a critical security risk:
 
