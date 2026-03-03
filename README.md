@@ -194,6 +194,7 @@ ARES demonstrates that:
 ## 👤 Author
 
 Developed by Harshwardhan Tiwari
+
 Inspired by research on Cross-Agent Prompt Injection Attacks (CA-PIA) during Aavishkar 2025.
 
 ---
