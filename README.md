@@ -1,9 +1,3 @@
-# ARES: AI-Red-Team-Security-Engine
-ARES (AI Red Team Engine for Security) is a multi-agent adversarial testing framework designed to Simulate prompt injection attacks against AI agent systems &amp; Detect security failures Adapt and self-heal defenses dynamically
-
-in simple terms:
-ARES attacks AI systems to test how secure they are.
-
 # ARES
 
 ## Adaptive Red Teaming for Agentic Systems
@@ -11,7 +5,10 @@ ARES attacks AI systems to test how secure they are.
 ---
 ## 🔬 Introduction
 
-**ARES (Adaptive Red Teaming for Agentic Systems)** is a multi-agent adversarial simulation framework designed to test, detect, and adapt against prompt injection attacks in autonomous AI systems.
+**ARES (AI Red Team Engine for Security)** ARES (AI Red Team Engine for Security) is a multi-agent adversarial testing framework designed to Simulate prompt injection attacks against AI agent systems &amp; Detect security failures Adapt and self-heal defenses dynamically
+
+in simple terms:
+ARES attacks AI systems to test how secure they are.
 
 This project is inspired by my research work on **Cross-Agent Prompt Injection Attacks (CA-PIA)** conducted during **Aavishkar 2025**, available here:
 https://github.com/harshwt/Cross-Agent-Prompt-Injection-Attacks-CA-PIA-
