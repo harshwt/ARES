@@ -188,7 +188,8 @@ Security must be designed, stress-tested, and continuously adapted.
 ARES demonstrates that:
 
 > Multi-agent AI systems must defend not just against bad data but against adversarial intent.
-
+> 
+NOTE: Use of strong model is recommended. 
 ---
 
 ## 👤 Author
